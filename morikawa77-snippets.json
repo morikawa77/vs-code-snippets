@@ -1,0 +1,34 @@
+{
+	"React Native Functional Component": {
+    "prefix": "rnfc",
+    "body": [
+      "import React from 'react';",
+      "import { View } from 'react-native';",
+      "",
+      "import { styles } from './styles';",
+      "",
+      "export function ReactComponentName(){",
+      "  return (",
+      "    <View>",
+      "",
+      "    </View>",
+      "  );",
+      "}"
+    ],
+    "description": "React Native Functional Component"
+  },
+  
+	"StyleSheet React Native Object": {
+		"prefix": "rnso",
+		"body": [
+			"import { StyleSheet } from 'react-native';",
+			"",
+			"export const styles = StyleSheet.create({",
+			"  container: {",
+			"    flex: 1,",
+			"  }",
+			"});"
+		],
+		"description": "StyleSheet React Native Object"
+	}
+}
