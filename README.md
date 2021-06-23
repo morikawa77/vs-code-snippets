@@ -6,7 +6,7 @@ Go to Code menu > Preferences > User Snippets
 <br><br>
 Choose a language for your snippets or create a new one (you can create for your actual project or a global).
 <br><br>
-Use the Snippet Generator website do generate the snippet json:
+Use the Snippet Generator website to generate the snippet json file:
 https://snippet-generator.app
 
 
