@@ -1,13 +1,14 @@
 {
-	"React Native Functional Component": {
-    "prefix": "rnfc",
+	"Basic React Native Component": {
+    "prefix": "rnbc",
     "body": [
       "import React from 'react';",
+      "",
       "import { View } from 'react-native';",
       "",
       "import { styles } from './styles';",
       "",
-      "export function ReactComponentName(){",
+      "export function ${TM_DIRECTORY/^.+\\/(.*)$/$1/}(){",
       "  return (",
       "    <View>",
       "",
@@ -15,9 +16,9 @@
       "  );",
       "}"
     ],
-    "description": "React Native Functional Component"
+    "description": "Basic React Native Component"
   },
-  
+
 	"StyleSheet React Native Object": {
 		"prefix": "rnso",
 		"body": [
@@ -25,10 +26,10 @@
 			"",
 			"export const styles = StyleSheet.create({",
 			"  container: {",
-			"    flex: 1,",
-			"  }",
+			"    flex: 1,",			
+			"  }",			
 			"});"
 		],
-		"description": "StyleSheet React Native Object"
+		"description": "Create a style object with Stylesheet to separate file."
 	}
 }
